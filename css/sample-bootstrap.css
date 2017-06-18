@@ -1,0 +1,114 @@
+body
+{
+  margin:0;
+  background-image:url(http://i68.tinypic.com/2rfalhy.jpg);
+}
+
+.navbar.navbar-default
+{
+  margin-left:45px;
+  padding:15px;
+  background-color:transparent;
+  border-color:transparent;
+}
+
+#home
+{
+color:#3E6A88;
+font-weight:bold;
+}
+#brand,#service,#login,#signup,.text-title,.glyphicon-search
+{
+color:white;
+}
+
+#signup
+{
+border:1px solid white;
+}
+
+#toggle-btn
+{
+width:40px;
+}
+
+.description,.text-title
+{
+font-family:'Open Sans',sans-serif;
+}
+.description
+{
+font-size:16px;
+}
+
+.glyphicon-search
+{
+padding:20px;
+}
+
+button
+{
+  background-color:transparent;
+  position:relative;
+  top:8px;
+  border-color:1px solid white;
+  border-radius:23px;
+  width:100px;
+  height:40px;
+  left:10px;
+ }
+.img-container
+{
+margin-left:auto;
+margin-right:auto;
+}
+#img1
+{
+  height:430px;
+  width:300px;
+}
+.more
+{
+  padding:40px;
+}
+.row
+{
+  color:lightblue;
+}
+
+#learn
+{
+  margin:25px;
+  margin-left:-10px;
+  width:120px;
+  border:1px solid white;
+}
+
+@media(max-width:524px)
+{
+ .navbar-default
+  {
+  margin-left:5px;
+  padding:0px;
+  } 
+ 
+ #img1
+  {
+   margin:auto;
+   width:80%;
+  }
+  .more
+  {
+    padding:0px;
+  }
+  .description
+  {
+    font-size:11.5px;
+  }
+  #learn
+  {
+    margin-left:20px;
+    text-align:center;
+    width:270px;
+  }
+}
